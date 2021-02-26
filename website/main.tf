@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    cloudflare = {
+      source = "cloudflare/cloudflare"
+    }
+  }
+}
+
 provider "cloudflare" {
   api_key = var.cloudflare_api_token
 }
