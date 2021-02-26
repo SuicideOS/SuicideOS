@@ -1,6 +1,6 @@
 variable "cloudflare_account_id" {
   type        = string
-  sensetive   = true
+  sensitive   = true
   description = "Cloudflare Account ID"
   validation {
     condition     = length(var.cloudflare_account_id) == 40 && can(regex("[0-9A-Za-z]", var.cloudflare_account_id))
@@ -10,7 +10,7 @@ variable "cloudflare_account_id" {
 
 variable "cloudflare_api_token" {
   type        = string
-  sensetive   = true
+  sensitive   = true
   description = "Cloudflare API Token"
   validation {
     condition     = length(var.cloudflare_api_token) == 40 && can(regex("[0-9A-Za-z-_]", var.cloudflare_api_token))
@@ -20,7 +20,7 @@ variable "cloudflare_api_token" {
 
 variable "cloudflare_website" {
   type        = string
-  sensetive   = false
+  sensitive   = false
   description = "Cloudflare Website domain"
   validation {
     condition     = length(var.cloudflare_website) > 4
@@ -30,7 +30,7 @@ variable "cloudflare_website" {
 
 variable "cloudflare_zone_id" {
   type        = string
-  sensetive   = true
+  sensitive   = true
   description = "Cloudflare Zone ID"
   validation {
     condition     = length(var.cloudflare_zone_id) == 40 && can(regex("[0-9A-Za-z]", var.cloudflare_zone_id))
