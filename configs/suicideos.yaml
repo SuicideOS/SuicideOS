@@ -5,7 +5,7 @@
 
 # {{- $suite := or .suite "byzantium" }}
 # {{- $version := or .version "10.0" }}
-# {{- $osflavor := or .osflavor "gnome" }}
+# {{- $osflavor := or .osflavor "mate" }}
 # {{- $imageflavor := or .imageflavor "live" }}
 
 # {{- $mirror := or .mirror "https://deb.debian.org/debian" }}
@@ -29,10 +29,10 @@ actions:
   #
   # Install OS packages
   #
-  # {{ if eq $osflavor "gnome" }}
+  # {{ if eq $osflavor "mate" }}
   - action: apt
     recommends: true
-    packages: [suicideos-gnome, adwaita-qt]
+    packages: [suicideos-mate, adwaita-qt]
   # {{ else if eq $osflavor "plasma" }}
   - action: apt
     recommends: true
