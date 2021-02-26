@@ -6,14 +6,6 @@ terraform {
   }
 }
 
-variable "cloudflare_api_token" { }
-
-variable "cloudflare_account_id" { }
-
-variable "cloudflare_zone_id" { }
-
-variable "cloudflare_website" { }
-
 provider "cloudflare" {
   api_token = var.cloudflare_api_token
   account_id = var.cloudflare_account_id
