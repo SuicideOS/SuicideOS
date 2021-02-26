@@ -7,7 +7,7 @@ on:
 
 jobs:
   pre-commit:
-    name: "Run Pre-Commit"
+    name: Run Pre-Commit
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -26,7 +26,7 @@ jobs:
         uses: pre-commit/action@v2.0.0
 
   terraform-docs:
-    name: "Generate Terraform Documentation"
+    name: Generate Terraform Documentation
     runs-on: ubuntu-latest
     defaults:
       run:
