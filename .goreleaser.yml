@@ -1,8 +1,10 @@
 env:
   - GO111MODULE=on
+
 before:
   hooks:
     - go mod download
+
 builds:
   - env:
       - CGO_ENABLED=0
@@ -20,8 +22,12 @@ builds:
       - -trimpath
     ldflags:
       - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }} -X main.builtBy=goreleaser
+    hooks:
+      post: ./scripts/install.sh self_sign "{{ .Env.GPG_FINGERPRINT }}"
+
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
+
 changelog:
   sort: asc
   filters:
@@ -31,6 +37,23 @@ changelog:
       - Merge pull request
       - Merge branch
       - go mod tidy
+
+archives:
+  - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+    replacements:
+      darwin: Darwin
+      linux: Linux
+      windows: Windows
+      386: i386
+      amd64: x86_64
+    format_overrides:
+      - goos: windows
+        format: zip
+    files:
+      - README.md
+      - LICENSE.md
+      - completions/*
+
 signs:
   - artifacts: checksum
     args:
@@ -43,3 +66,12 @@ signs:
         "--detach-sign",
         "${artifact}",
       ]
+
+release:
+  github:
+    owner: SuicideOS
+    name: SuicideOS
+  name_template: "{{.ProjectName}}-v{{.Version}} {{.Env.USER}}"
+  extra_files:
+    - glob: ./scripts/install.sh
+    - glob: ./scripts/install.sh.asc
