@@ -19,5 +19,5 @@ resource "cloudflare_worker_route" "base_domain_route" {
 
 resource "cloudflare_worker_script" "cli_agent" {
   name    = "cli_agent"
-  content = file("src/serverless/cli_agent.js")
+  content = file("../index.js")
 }
