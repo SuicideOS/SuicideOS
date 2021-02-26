@@ -1,6 +1,6 @@
 # SuicideOS <!-- omit in toc -->
 
-SuicideOS is customizable recipe for security-focused Debian-based GNU/Linux distributions based on all the best flavors.
+SuicideOS is a customizable recipe for security-focused Debian-based GNU/Linux distributions based on all the best flavors.
 
 ## Table of Contents <!-- omit in toc -->
 
