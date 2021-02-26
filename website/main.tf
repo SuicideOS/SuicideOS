@@ -22,7 +22,7 @@ provider "cloudflare" {
 resource "cloudflare_worker_route" "base_domain_route" {
   zone_id = var.cloudflare_zone_id
   pattern = var.cloudflare_website
-  script_name = cloudflare_worker_script.my_script.name
+  script_name = cloudflare_worker_script.cli_agent.name
 }
 
 resource "cloudflare_worker_script" "cli_agent" {
