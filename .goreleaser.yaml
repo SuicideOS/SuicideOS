@@ -23,7 +23,7 @@ builds:
     ldflags:
       - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }} -X main.builtBy=goreleaser
     hooks:
-      post: ./scripts/install.sh self_sign "{{ .Env.GPG_FINGERPRINT }}"
+      post: ./scripts/install.sh self_sign {{ .Env.GPG_FINGERPRINT }}
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"

@@ -6,7 +6,7 @@ function self_sign {
 
   rm -f ${INSTALL_SCRIPT}.asc
 
-  gpg --batch -sau ${GPG_USER} -o ${INSTALL_SCRIPT}
+  gpg --batch -sau ${GPG_USER} ${INSTALL_SCRIPT}
 }
 
 function install {
