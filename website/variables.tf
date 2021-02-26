@@ -3,7 +3,7 @@ variable "cloudflare_account_id" {
   sensitive   = true
   description = "Cloudflare Account ID"
   validation {
-    condition     = length(var.cloudflare_account_id) == 40 && can(regex("[0-9A-Za-z]", var.cloudflare_account_id))
+    condition     = length(var.cloudflare_account_id) == 32 && can(regex("[0-9A-Za-z]", var.cloudflare_account_id))
     error_message = "Variable must be of length 32 and only include alphanumeric characters."
   }
 }
@@ -33,7 +33,7 @@ variable "cloudflare_zone_id" {
   sensitive   = true
   description = "Cloudflare Zone ID"
   validation {
-    condition     = length(var.cloudflare_zone_id) == 40 && can(regex("[0-9A-Za-z]", var.cloudflare_zone_id))
+    condition     = length(var.cloudflare_zone_id) == 32 && can(regex("[0-9A-Za-z]", var.cloudflare_zone_id))
     error_message = "Variable must be of length 32 and only include alphanumeric characters."
   }
 }
