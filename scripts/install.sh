@@ -4,7 +4,7 @@ function self_sign {
   local GPG_USER="${1}"
   local INSTALL_SCRIPT="${0}"
 
-  gpg --batch -sau "${GPG_USER}" ${INSTALL_SCRIPT}
+  gpg --batch -sau ${GPG_USER} -o ${INSTALL_SCRIPT}.asc ${INSTALL_SCRIPT}
 }
 
 function install {

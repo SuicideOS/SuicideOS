@@ -1,4 +1,4 @@
-name: "Pull Request Actions"
+name: Pull Request Actions
 
 on:
   pull_request:
