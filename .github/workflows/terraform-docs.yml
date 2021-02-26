@@ -1,0 +1,27 @@
+name: 'Terraform Docs'
+
+on:
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  terraform-docs:
+    name: 'Generate Terraform Docs'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: website
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Render Terraform docs to website/README.md
+      uses: Dirrk/terraform-docs@v1.0.8
+      with:
+        tf_docs_working_dir: .
+        tf_docs_output_file: README.md
+        tf_docs_output_method: inject
+        tf_docs_git_push: 'true'
