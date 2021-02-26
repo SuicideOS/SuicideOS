@@ -1,14 +1,14 @@
-# {{- $image := or .image "suicideos-debos.iso" -}}
+# {{- $image := or .image "suicideos-debos.iso" }}
 
-# {{- $arch := or .arch "amd64" -}}
-# {{- $kernel_flavour := or .kernel_flavour $arch -}}
+# {{- $arch := or .arch "amd64" }}
+# {{- $kernel_flavour := or .kernel_flavour $arch }}
 
-# {{- $suite := or .suite "byzantium" -}}
-# {{- $version := or .version "10.0" -}}
-# {{- $osflavor := or .osflavor "gnome" -}}
-# {{- $imageflavor := or .imageflavor "live" -}}
+# {{- $suite := or .suite "byzantium" }}
+# {{- $version := or .version "10.0" }}
+# {{- $osflavor := or .osflavor "gnome" }}
+# {{- $imageflavor := or .imageflavor "live" }}
 
-# {{- $mirror := or .mirror "https://deb.debian.org/debian" -}}
+# {{- $mirror := or .mirror "https://deb.debian.org/debian" }}
 
 architecture: "{{ $arch }}"
 
