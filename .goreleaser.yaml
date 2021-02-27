@@ -57,7 +57,7 @@ signs:
 nfpms:
   - maintainer: Matthew Cascio
     description: SuicideOS is a customizable recipe for security-focused Debian-based GNU/Linux distributions based on all the best flavors.
-    homepage: https://github.com/SuicideOS/SuicideOS
+    homepage: https://github.com/SuicideOS/suicide
     license: Apache 2.0
     formats:
       - deb
