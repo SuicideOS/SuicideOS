@@ -21,7 +21,6 @@ params:
   disableNextPrev: false
   disableLandingPageButton: true
   disableMermaid: true
-  themeVariant: "green"
 
 languages:
   en:
