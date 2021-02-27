@@ -1,7 +1,7 @@
 const githubApiUrl = "https://api.github.com/repos/"
 const githubUrl = "https://github.com/"
 const pagesUrl = "https://docs.suicide.sh/"
-const repo = "SuicideOS/SuicideOS"
+const repo = "SuicideOS/suicide"
 const defaultTag = "0.1.0"
 
 async function gatherResponse(response) {

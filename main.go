@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/SuicideOS/SuicideOS/v2/cmd"
+import "github.com/SuicideOS/suicide/v2/cmd"
 
 func main() {
 	cmd.Execute()

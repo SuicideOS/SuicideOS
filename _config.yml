@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+remote_theme: chrisrhymes/bulma-clean-theme
+theme_color: "#333333"
+comments: false
+baseurl: "/"
+plugins:
+  - github-pages

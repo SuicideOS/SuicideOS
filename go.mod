@@ -1,4 +1,4 @@
-module github.com/SuicideOS/SuicideOS/v2
+module github.com/SuicideOS/suicide/v2
 
 go 1.16
 
