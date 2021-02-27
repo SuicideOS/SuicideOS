@@ -2,8 +2,33 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Deployment](#deployment)
+- [Requirements](#requirements)
+- [Providers](#providers)
+- [Inputs](#inputs)
+- [Outputs](#outputs)
 
-## Deployment
+<!--- BEGIN_TF_DOCS --->
+## Requirements
 
-This code is deployed to Cloudflare as a Worker using Terraform (see [deployments](./deployments)).
+No requirements.
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| cloudflare | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| cloudflare\_account\_id | Cloudflare Account ID | `string` | n/a | yes |
+| cloudflare\_api\_token | Cloudflare API Token | `string` | n/a | yes |
+| cloudflare\_website | Cloudflare Website domain | `string` | n/a | yes |
+| cloudflare\_zone\_id | Cloudflare Zone ID | `string` | n/a | yes |
+
+## Outputs
+
+No output.
+
+<!--- END_TF_DOCS --->

@@ -9,8 +9,7 @@ SuicideOS is a customizable recipe for security-focused Debian-based GNU/Linux d
 
 ## Project Layout
 
-- [website](./website): Website for SuicideOS (suicide.sh)
-  - [deployments](./website/deployments): Cloudflare deployment for website using Terraform
+- [website](./website): Website for SuicideOS (suicide.sh), deployed using Terraform
 
 ## Usage
 
