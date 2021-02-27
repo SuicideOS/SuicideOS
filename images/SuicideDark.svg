@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100.008 125" x="0px" y="0px">
-  <defs>
-    <style>.cls-1{fill:none;stroke:#FFF;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.99805px;}</style>
-  </defs>
-  <title>FOOD ICONs</title>
-  <path class="cls-1" d="M65.30016,57.66192a19.47813,19.47813,0,0,0-4.89618-.37084c-2.20794.11439-3.9655.63408-7.3905,1.66878-6.7562,2.04106-6.64758,2.01807-6.74381,2.03962-2.93206.6569-7.34658.40221-13.722-3.81552M30.42081,42.603l4.31157,44.18787h29.1781l3.91678-44.25907Zm40.9083-4.77736H26.25342V42.4208H71.32911Zm-3.43463-3.72816c-1.31719-8.94462-9.5418-15.663-19.11921-15.63752-9.53709.02534-17.69881,6.73064-19.01036,15.63752v3.86561H67.89448ZM50.31209,27.09735,48.02146,60.385M49.26468,42.3179m0-4.56391,2.411-30.472L49.53933,38.32724" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176" height="94" version="1.1" viewBox="0 0 276 181" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>.cls-1{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-width:8px;}</style>
+</defs>
+<title>SuicideOS Logo</title>
+<g transform="translate(-30 -4.5)">
+<text transform="scale(.96 1)" x="-7.8287621" y="22.123468" font-size="13px" stroke-width="1.1"><tspan x="96" y="174.0284" fill="#FFFFFF" font-family="'Liberation Sans'" font-size="76px" stroke="#FFFFFF" stroke-width="1.1">Suicide</tspan></text>
+<g transform="matrix(.97 0 0 .97 -23 5.6)">
+  <g transform="translate(-196,-24)">
+  <path class="cls-1" d="m314 140c-3.9-0.74-7.9-1-12-0.84-5.3 0.26-9.6 1.4-18 3.8-16 4.6-16 4.6-16 4.6-7.1 1.5-18 0.91-33-8.6m-5.1-33 10 100h71l9.5-100zm99-11h-109v10h109zm-8.3-8.4c-3.2-20-23-35-46-35-23 0.057-43 15-46 35v8.3l92-0.2zm-43-16-5.5 75m3-51 5.8-69-5.2 70" stroke-linejoin="round" stroke-width="7.8" style="paint-order:normal"/>
+  </g>
+</g>
+</g>
 </svg>
