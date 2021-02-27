@@ -1,5 +1,5 @@
 ---
-title: "SuicideOS Doccs"
+title: "SuicideOS Docs"
 weight: 1
 ---
 
