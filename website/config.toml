@@ -7,7 +7,7 @@ enableGitInfo = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS","JSON"]
 
 [[menu.main]]
   name = "SuicideOS Docs"
