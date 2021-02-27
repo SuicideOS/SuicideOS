@@ -1,6 +1,7 @@
 # Deployment: SuicideOS Website (suicide.sh) <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
+
 - [Requirements](#requirements)
 - [Providers](#providers)
 - [Inputs](#inputs)
