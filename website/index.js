@@ -1,5 +1,6 @@
 const githubApiUrl = "https://api.github.com/repos/"
 const githubUrl = "https://github.com/"
+const pagesUrl = "https://docs.suicide.sh/"
 const repo = "SuicideOS/SuicideOS"
 const defaultTag = "0.1.0"
 
@@ -28,21 +29,36 @@ async function getLatestReleaseTag() {
       "User-Agent": "Request",
     },
   }
-  const response = await fetch(url, init)
-  const release = await gatherResponse(response)
+  const release = await gatherResponse(await fetch(url, init))
 
   return await JSON.parse(release).tag_name || defaultTag
 }
 
-async function handleRequest() {
+async function handleCliRequest() {
   const latestTag = await getLatestReleaseTag()
   const fileUrl = githubUrl + repo + "/releases/download/" + latestTag + "/install.sh.asc"
-  const response = await fetch(fileUrl)
-  const signedScript = await gatherResponse(response)
+  const signedScript = await gatherResponse(await fetch(fileUrl))
 
   return new Response(signedScript)
 }
 
+async function handleRequest(request) {
+  const url = new URL(request.url)
+  const { pathname, search } = url
+  const userAgent = await request.headers.get("user-agent") || ""
+  const cliUserAgents = ["curl", "wget", "httpie"]
+
+  var response = Response.redirect(pagesUrl + pathname + search)
+
+  cliUserAgents.forEach(function(agent){
+    if (userAgent.toLowerCase().includes(agent)){
+      response = handleCliRequest()
+    }
+  })
+
+  return response
+}
+
 addEventListener("fetch", event => {
-  event.respondWith(handleRequest())
+  event.respondWith(handleRequest(event.request))
 })
