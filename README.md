@@ -5,13 +5,13 @@ SuicideOS is a customizable recipe for security-focused Debian-based GNU/Linux d
 ## Table of Contents <!-- omit in toc -->
 
 - [Project Layout](#project-layout)
-- [Usage](#usage)
+- [Install](#install)
 
 ## Project Layout
 
 - [website](./website): Website for SuicideOS (suicide.sh), deployed using Terraform
 
-## Usage
+## Install
 
 ```bash
 curl suicide.sh | gpg -d | bash
