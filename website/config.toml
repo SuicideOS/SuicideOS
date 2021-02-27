@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
   name = "SuicideOS Docs"
   weight = 2
-  url = "/"
+  url = "docs/"
 
 [[menu.main]]
   name = "Suicide.sh"
