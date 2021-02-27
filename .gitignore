@@ -17,14 +17,5 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
-# NodeJS files
-website/target
-website/dist
-**/*.rs.bk
-Cargo.lock
-bin/
-pkg/
-wasm-pack.log
-worker/
-node_modules/
-.cargo-ok
+# Website files
+website/public

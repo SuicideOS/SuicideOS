@@ -6,4 +6,3 @@ repos:
       - id: check-json
       - id: trailing-whitespace
       - id: end-of-file-fixer
-        exclude: CNAME
