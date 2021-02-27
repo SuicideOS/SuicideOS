@@ -79,7 +79,7 @@ release:
   github:
     owner: SuicideOS
     name: SuicideOS
-  name_template: "{{.ProjectName}}-v{{.Version}} {{.Env.USER}}"
+  name_template: "{{.ProjectName}}-v{{.Version}}"
   extra_files:
     - glob: ./scripts/install.sh
     - glob: ./scripts/install.sh.asc
