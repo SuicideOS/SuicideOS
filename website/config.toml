@@ -44,8 +44,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   codeLineNumbers = false
 
   [params.logo]
-    lightMode = "images/SuicideDark.svg"
-    darkMode = "images/SuicideLight.svg"
+    lightMode = "images/SuicideLight.svg"
+    darkMode = "images/SuicideDark.svg"
 
   [params.source]
     name = "GitHub"
@@ -54,5 +54,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     url = "https://github.com/SuicideOS/suicide"
 
   [params.author]
-    name = "Matthew Cascio, logo by ekin tumer from the Noun Project"
+    name = "Matthew Cascio. Original logo by Ekin Tumer from the Noun Project"
     url = "https://github.com/cybercapsicum"
