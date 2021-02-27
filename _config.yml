@@ -1,6 +1,13 @@
 remote_theme: chrisrhymes/bulma-clean-theme
-theme_color: "#333333"
-comments: false
-baseurl: "/"
-plugins:
-  - github-pages
+title: SuicideOS
+baseurl: ""
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+      hide_hero: true
+      theme_color: "#333333"
+      comments: false
