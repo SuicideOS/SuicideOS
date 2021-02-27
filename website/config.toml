@@ -54,5 +54,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     url = "https://github.com/SuicideOS/suicide"
 
   [params.author]
-    name = "Matthew Cascio. Original logo by Ekin Tumer from the Noun Project"
+    name = "Matthew Cascio. Original logo by Ekin Tumer from the Noun Project."
     url = "https://github.com/cybercapsicum"
