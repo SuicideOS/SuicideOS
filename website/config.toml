@@ -10,15 +10,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   home = ["HTML", "RSS","JSON"]
 
 [[menu.main]]
-  name = "Docs"
+  name = "SuicideOS Docs"
   weight = 2
   url = "/"
-
-[[menu.main]]
-  name = "Example"
-  weight = 3
-  url = "https://docs.neuralvibes.com"
-
 
 [markup]
   [markup.goldmark]
@@ -42,9 +36,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     startLevel = 2
 
 [params]
-
   repo = "https://github.com/SuicideOS/suicide"
-
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
   enableDarkMode = true
