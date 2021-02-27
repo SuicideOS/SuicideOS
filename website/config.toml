@@ -1,3 +1,54 @@
 baseURL = "https://docs.suicide.sh"
-languageCode = "en-us"
 title = "SuicideOS"
+theme = "compose"
+languageCode = "en-us"
+enableGitInfo = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "RSS","JSON"]
+
+[[menu.main]]
+  name = "SuicideOS Docs"
+  weight = 2
+  url = "/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      typographer = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    style = "monokai"
+    tabWidth = 2
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+  repo = "https://github.com/SuicideOS/suicide"
+  time_format_blog = "Monday, January 02, 2006"
+  time_format_default = "January 2, 2006"
+  enableDarkMode = true
+  codeMaxLines = 7
+  codeLineNumbers = false
+
+  [params.source]
+    name = "GitHub"
+    iconLight = "images/GitHubMarkLight.svg"
+    iconDark = "images/GitHubMarkDark.svg"
+    url = "https://github.com/SuicideOS/suicide"
+
+  [params.author]
+    name = "Matthew Cascio"
+    url = "https://github.com/cybercapsicum"

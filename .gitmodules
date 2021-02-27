@@ -1,0 +1,3 @@
+[submodule "website/themes/compose"]
+	path = website/themes/compose
+	url = https://github.com/onweru/compose/
