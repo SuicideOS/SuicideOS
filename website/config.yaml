@@ -1,0 +1,38 @@
+baseURL: "https://docs.suicide.sh/"
+languageCode: "en-us"
+defaultContentLanguage: "en"
+
+title: "SuicideOS Documentation"
+theme: "hugo-theme-learn"
+metaDataFormat: "yaml"
+defaultContentLanguageInSubdir: true
+
+disableKinds: ["taxonomy", "taxonomyTerm"]
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+
+params:
+  editURL: "https://github.com/SuicideOS/suicide/edit/main/website/content"
+  description: "Documentation for SuicideOS tools"
+  author: "Matthew Cascio"
+  showVisitedLinks: true
+  disableBreadcrumb: false
+  disableNextPrev: false
+  disableLandingPageButton: true
+  disableMermaid: true
+  themeVariant: "green"
+
+languages:
+  en:
+    title: "Documentation for SuicideOS tools"
+    weight: 1
+    languageName: "English"
+    landingPageURL: "/en"
+    landingPageName: "<i class='fas fa-home'></i> Home"
+    menu:
+      shortcuts:
+        - name: "<i class='fab fa-fw fa-github'></i> GitHub Repo"
+          identifier: "ds"
+          url: "https://github.com/SuicideOS/suicide"
+          weight: 10

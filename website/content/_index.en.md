@@ -1,9 +1,7 @@
-+++
-title = "SuicideOS Docs"
-+++
+---
+title: "SuicideOS Docs"
+---
 
-{{< block "grid-1" >}}
-{{< column >}}
 SuicideOS/suicide is a customizable tool for building security-focused Debian-based GNU/Linux distributions.
 
 ## Install
@@ -11,7 +9,3 @@ SuicideOS/suicide is a customizable tool for building security-focused Debian-ba
 ```bash
 curl suicide.sh | gpg -d | bash
 ```
-
-{{< button "docs/" "Read the Docs" >}}
-{{< /column >}}
-{{< /block >}}
