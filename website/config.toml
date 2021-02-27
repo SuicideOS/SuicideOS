@@ -1,6 +1,6 @@
 baseURL = "https://docs.suicide.sh"
 title = "SuicideOS"
-theme = ["github.com/onweru/compose"]
+theme = "compose"
 languageCode = "en-us"
 enableGitInfo = true
 
