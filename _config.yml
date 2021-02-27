@@ -7,7 +7,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      show_sidebar: true
+      show_sidebar: false
       hide_hero: true
-      theme_color: "#333333"
+      theme_color: "#000000"
       comments: false
