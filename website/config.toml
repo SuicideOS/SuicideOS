@@ -1,4 +1,4 @@
-baseURL = "https://docs.suicide.sh"
+baseURL = "/"
 title = "SuicideOS"
 theme = "compose"
 languageCode = "en-us"
@@ -7,7 +7,7 @@ enableGitInfo = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
-  home = ["HTML", "RSS","JSON"]
+  home = ["HTML"]
 
 [[menu.main]]
   name = "SuicideOS Docs"
