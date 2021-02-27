@@ -19,5 +19,5 @@ resource "cloudflare_worker_route" "base_domain_route" {
 
 resource "cloudflare_worker_script" "index" {
   name    = "index"
-  content = file("../index.js")
+  content = file("./index.js")
 }
