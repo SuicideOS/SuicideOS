@@ -41,7 +41,7 @@ jobs:
       - name: Run terraform-docs
         uses: terraform-docs/gh-actions@v0.4.0
         with:
-          working-dir: website
+          working-dir: website/backend
           output-file: README.md
           output-method: inject
           git-push: "true"

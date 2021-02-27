@@ -4,12 +4,7 @@ SuicideOS/suicide is a customizable tool for building security-focused Debian-ba
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Project Layout](#project-layout)
 - [Install](#install)
-
-## Project Layout
-
-- [website](./website): Website for SuicideOS (suicide.sh), deployed using Terraform
 
 ## Install
 
