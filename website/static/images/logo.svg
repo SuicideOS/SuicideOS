@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="260" height="96" viewBox="0 0 504 204" mlns="http://www.w3.org/2000/svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="276" height="96" viewBox="0 0 504 204" mlns="http://www.w3.org/2000/svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <metadata>
     <rdf:RDF>
       <cc:Work rdf:about="">
@@ -15,7 +15,7 @@
     </filter>
     <style>
       g {
-        fill: none;
+        fill: #c9d1d9;
         mix-blend-mode: normal;
         stroke-opacity: 1;
         stroke-linecap: round;
@@ -23,28 +23,14 @@
         font-size: 120px;
         font-family: "Liberation Sans";
       }
-
-      .fg {
-        stroke: #FFF;
-      }
-
-      .bg {
-        stroke: #000000;
-        stroke-opacity: 0.2;
-        filter: url(#blur);
-      }
     </style>
   </defs>
-  <g class="bg">
-    <path stroke-width="8px" d="m 100,120 c -4,0 -8,-1 -12,-1 -5.5,0 -10,1.5 -18.5,4 -16.5,4.5 -16.5,4.5 -16.5,4.5 -7,1.5 -18.5,1 -34,-9 M 14,86 24.5,188 H 97.5 L 107,86 Z M 116,75 H 4 V 85 H 116 Z M 107.5,66 C 104,46 84,30.5 60,30.5 36.5,30.5 16,46 13,66 v 8.5 L 107.5,74.5 Z M 63,50 57.5,126 M 61,74.5 66.5,4 61,75" />
-    <text x="15" y="38">
-      <tspan x="112" y="186" stroke-width="4px">Suicide</tspan>
-    </text>
+  <g transform="translate(-36 12) scale(1.75 1.75)">
+    <path d="M 52 0.4 A 51.5 51.5 0 0 0 0.5 52 A 51.5 51.5 0 0 0 52 103.5 A 51.5 51.5 0 0 0 103.5 52 A 51.5 51.5 0 0 0 58.5 0.90625 A 3.5 3.5 0 0 1 58.5 2 L 58.5 2.25 L 58.5 2.5 L 58 12 C 68.5 14 78 22 79 32 A 3.5 3.5 0 0 1 79 32.5 L 79 33.5 L 80 33.5 A 3.5 3.5 0 0 1 83 37 L 83 42 A 3.5 3.5 0 0 1 80 45.5 L 78.5 45.5 L 74 93.5 A 3.5 3.5 0 0 1 70.5 96.5 L 34.5 96.5 A 3.5 3.5 0 0 1 31 93.5 L 26 45.5 L 24 45.5 A 3.5 3.5 0 0 1 21 42 L 21 37 A 3.5 3.5 0 0 1 24 33.5 L 25 33.5 L 25 32.5 A 3.5 3.5 0 0 1 25 32 C 27 20.5 38 12 51 12 L 52 2 L 52 2 A 3.5 3.5 0 0 1 52 0.5 A 51.5 51.5 0 0 0 52 0.5 A 51.5 51.5 0 0 0 52 0.5 z M 50.5 18.5 C 41 19 33 25.5 32 33 L 32 33.5 L 49 33.5 L 50.5 18.5 z M 57 19 L 57 24.5 A 3.5 3.5 0 0 1 57 25 L 56 33.5 L 72 33.5 L 72 33 C 71 26.5 65 21 57 19 z M 33 46 L 34 56 C 40.5 60 45 60 47.5 60 L 48.5 46 L 33 46 z M 55.5 46 L 54.5 58 L 56 58 C 60 56 62.5 55.5 66 55.5 C 67.5 55.5 69 55.5 70.5 56 L 71.5 46 L 55.5 46 z M 66 62.5 C 64 62.5 62 63 57.5 64 A 3.5 3.5 0 0 1 57.5 64 L 49.5 66.5 A 3.5 3.5 0 0 1 49 66.5 C 46 67 41 67 35 64 L 37.5 89.5 L 67.5 89.5 L 70 63 C 68 62.5 67 62.5 66 62.5 z" />
   </g>
-  <g class="fg">
-    <path stroke-width="8px" d="m 100,120 c -4,0 -8,-1 -12,-1 -5.5,0 -10,1.5 -18.5,4 -16.5,4.5 -16.5,4.5 -16.5,4.5 -7,1.5 -18.5,1 -34,-9 M 14,86 24.5,188 H 97.5 L 107,86 Z M 116,75 H 4 V 85 H 116 Z M 107.5,66 C 104,46 84,30.5 60,30.5 36.5,30.5 16,46 13,66 v 8.5 L 107.5,74.5 Z M 63,50 57.5,126 M 61,74.5 66.5,4 61,75" />
+  <g transform="translate(36 6)">
     <text x="15" y="38">
-      <tspan x="112" y="186" stroke-width="4px" fill="#FFF">Suicide</tspan>
+      <tspan x="108" y="186" stroke-width="4px">Suicide</tspan>
     </text>
   </g>
 </svg>
