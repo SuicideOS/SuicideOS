@@ -104,6 +104,13 @@ a:hover {
   border-color: var(--color-border-secondary);
 }
 
+#sidebar #shortcuts h3 {
+  font-family: inherit;
+  color: var(--color-text-primary);
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
 #footer {
   padding: 3rem 1rem;
   color: var(--color-text-secondary);
