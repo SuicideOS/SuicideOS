@@ -13,7 +13,7 @@
       tumer</a>.</p>
   <p>Built using Hugo {{ .Hugo.Version }} and <a
       href="https://github.com/matcornic/hugo-theme-learn">hugo-theme-learn</a>.</p>
-  <p>Latest update: {{ .GitInfo.AuthorDate}} (<a
+  <p>Latest update: {{ .GitInfo.AuthorDate | dateFormat "Monday, Jan 2, 2006" }} (<a
       href="https://github.com/SuicideOS/suicide/commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>).</p>
 </center>
 
