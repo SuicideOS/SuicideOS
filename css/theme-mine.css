@@ -1,8 +1,10 @@
 :root {
   --color-text-primary: #c9d1d9;
+  --color-text-primary-inverse: #0d1117;
   --color-text-secondary: #8b949e;
   --color-text-link: #58a6ff;
   --color-bg-primary: #0d1117;
+  --color-bg-primary-inverse: #f0f6fc;
   --color-bg-secondary: #161b22;
   --color-border-primary: #30363d;
   --color-border-secondary: #21262d;
@@ -112,6 +114,11 @@ pre {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
   font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "monospace";
+}
+
+.chroma::selection, .chroma::-moz-selection {
+  color: var(--color-text-primary-inverse);
+  background-color: var(--color-bg-primary-inverse);
 }
 
 .chroma .lntd {
