@@ -1,5 +1,7 @@
 <a id="logo"
   href='{{ (cond (and (ne .Site.Params.landingPageURL nil) (.Site.IsMultiLingual)) .Site.Params.landingPageURL "/") }}'>
-  <object data="images/logo.svg" type="image/svg+xml"></object>
-  <h2 style="margin: 0px">SuicideOS</h2>
+  <h2 style="margin: 0px">
+    <object data="images/logo.svg" type="image/svg+xml" width="52px" height="52px"></object>
+    <span>SuicideOS</span>
+  </h2>
 </a>
