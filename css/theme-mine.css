@@ -7,6 +7,16 @@
   --color-border-primary: #30363d;
   --color-border-secondary: #21262d;
   --color-border-tertiary: #6e7681;
+  --color-syntax-hl-line-hl: #ffffcc;
+  --color-syntax-hl-line-num: #7f7f7f;
+  --color-syntax-hl-var: #ff79c6;
+  --color-syntax-hl-type: #8be9fd;
+  --color-syntax-hl-func: #50fa7b;
+  --color-syntax-hl-string: #f1fa8c;
+  --color-syntax-hl-num: #bd93f9;
+  --color-syntax-hl-comment: #6272a4;
+  --color-syntax-hl-del: #8b080b;
+  --color-syntax-hl-out: #44475a;
 }
 
 body {
@@ -96,43 +106,84 @@ a:hover {
 }
 
 code, kbd, pre, samp {
-  font-family: "Consolas", menlo, monospace;
-  font-size: 92%;
-}
-
-code {
-  border-radius: 2px;
-  white-space: nowrap;
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
   border: 1px solid var(--color-border-secondary);
-  padding: 0px 2px;
+  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "monospace";
+  font-size: 92%;
 }
 
-code+.copy-to-clipboard {
-  margin-left: -1px;
-  border-left: 0 !important;
-  font-size: inherit !important;
-  vertical-align: middle;
-  height: 21px;
-  top: 0;
-}
-
-pre {
-  padding: 1rem;
-  margin: 2rem 0;
-  background: var(--color-bg-secondary);
-  border: 0;
-  border-radius: 2px;
-  line-height: 1.15;
-}
-
-pre code {
+.chroma {
   color: var(--color-text-primary);
-  background: inherit;
-  white-space: inherit;
-  border: 0;
+  background-color: var(--color-bg-secondary);
+}
+
+.chroma .lntd {
+  vertical-align: top;
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  border: 0;
+}
+
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block;
+}
+
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: var(--color-syntax-hl-line-hl);
+}
+
+.chroma .lnt, .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: var(--color-syntax-hl-line-num);
+}
+
+.chroma .k, .chroma .kc, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .nt, .chroma .o, .chroma .ow, .chroma .cp, .chroma .cpf {
+  color: var(--color-syntax-hl-var);
+}
+
+.chroma .kd, .chroma .kt, .chroma .nb, .chroma .nl, .chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi {
+  color: var(--color-syntax-hl-type);
+  font-style: italic;
+}
+
+.chroma .na, .chroma .nc, .chroma .nf {
+  color: var(--color-syntax-hl-func);
+}
+
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl, .chroma .sd, .chroma .s2, .chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr, .chroma .s1, .chroma .ss {
+  color: var(--color-syntax-hl-string);
+}
+
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo {
+  color: var(--color-syntax-hl-num);
+}
+
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1, .chroma .cs {
+  color: var(--color-syntax-hl-comment);
+}
+
+.chroma .gd {
+  color: var(--color-syntax-hl-del);
+}
+
+.chroma .ge, .chroma .gl {
+  text-decoration: underline
+}
+
+.chroma .gh, .chroma .gi, .chroma .gu {
+  font-weight: bold
+}
+
+.chroma .go {
+  color: var(--color-syntax-hl-out);
 }
