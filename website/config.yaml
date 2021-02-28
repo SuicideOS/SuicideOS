@@ -21,7 +21,7 @@ params:
   disableNextPrev: false
   disableLandingPageButton: true
   disableMermaid: true
-  themeVariant: "blue"
+  themeVariant: "mine"
 
 languages:
   en:
