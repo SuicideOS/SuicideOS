@@ -6,6 +6,7 @@ title: "SuicideOS Documentation"
 theme: "hugo-theme-learn"
 metaDataFormat: "yaml"
 defaultContentLanguageInSubdir: true
+pygmentsUseClasses: true
 
 disableKinds: ["taxonomy", "taxonomyTerm"]
 
