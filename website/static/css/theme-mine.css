@@ -101,21 +101,11 @@ a:hover {
   border-color: var(--color-border-secondary);
 }
 
-.highlight {
-  background: var(--color-bg-secondary);
-}
-
-code, kbd, pre, samp {
+.chroma {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
   border: 1px solid var(--color-border-secondary);
   font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "monospace";
-  font-size: 92%;
-}
-
-.chroma {
-  color: var(--color-text-primary);
-  background-color: var(--color-bg-secondary);
 }
 
 .chroma .lntd {
@@ -141,7 +131,7 @@ code, kbd, pre, samp {
   background-color: var(--color-syntax-hl-line-hl);
 }
 
-.chroma .lnt, .ln {
+.chroma .lnt, .chroma .ln {
   margin-right: 0.4em;
   padding: 0 0.4em 0 0.4em;
   color: var(--color-syntax-hl-line-num);
@@ -177,11 +167,11 @@ code, kbd, pre, samp {
 }
 
 .chroma .ge, .chroma .gl {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .chroma .gh, .chroma .gi, .chroma .gu {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .chroma .go {
