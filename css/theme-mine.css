@@ -1,4 +1,4 @@
-:root{
+:root {
   --color-text-primary: #c9d1d9;
   --color-text-secondary: #8b949e;
   --color-text-link: #58a6ff;
@@ -35,8 +35,8 @@ a:hover {
   color: var(--color-text-link);
 }
 
-#sidebar ul li.visited > a .read-icon {
-color: var(--color-text-link);
+#sidebar ul li.visited>a .read-icon {
+  color: var(--color-text-link);
 }
 
 #body a.highlight:after {
@@ -52,7 +52,7 @@ color: var(--color-text-link);
 }
 
 #sidebar {
-background-color: var(--color-bg-primary);
+  background-color: var(--color-bg-primary);
 }
 
 #sidebar #header-wrapper {
@@ -66,7 +66,7 @@ background-color: var(--color-bg-primary);
   background: var(--color-bg-primary);
 }
 
-#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+#sidebar ul.topics>li.parent, #sidebar ul.topics>li.active {
   background: var(--color-bg-secondary);
 }
 
@@ -82,7 +82,7 @@ background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
 }
 
-#sidebar ul li.active > a {
+#sidebar ul li.active>a {
   background: var(--color-bg-secondary);
   color: var(--color-text-primary) !important;
 }
@@ -109,7 +109,7 @@ code {
   padding: 0px 2px;
 }
 
-code + .copy-to-clipboard {
+code+.copy-to-clipboard {
   margin-left: -1px;
   border-left: 0 !important;
   font-size: inherit !important;
