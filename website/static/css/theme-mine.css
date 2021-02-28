@@ -24,11 +24,7 @@
 body {
   color: var(--color-text-primary) !important;
   background-color: var(--color-bg-primary);
-}
-
-.body::selection, .body::-moz-selection {
-  color: var(--color-text-primary-inverse) !important;
-  background-color: var(--color-bg-primary-inverse) !important;
+  font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial";
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
@@ -106,6 +102,16 @@ a:hover {
 
 #sidebar hr {
   border-color: var(--color-border-secondary);
+}
+
+#footer {
+  padding: 3rem 1rem;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+#footer p {
+  margin: 0;
 }
 
 pre {
