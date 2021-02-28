@@ -1,4 +1,4 @@
-# Website: SuicideOS (suicide.sh) <!-- omit in toc -->
+# Website: SuicideOS (<suicide.sh>) <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 
