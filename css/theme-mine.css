@@ -101,6 +101,13 @@ a:hover {
   border-color: var(--color-border-secondary);
 }
 
+pre {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1.15;
+}
+
 .chroma {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
