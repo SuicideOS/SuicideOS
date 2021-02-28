@@ -62,7 +62,7 @@ a:hover {
 }
 
 #sidebar {
-  background-color: var(--color-bg-primary);
+  background: var(--color-bg-secondary);
 }
 
 #sidebar #header-wrapper {
