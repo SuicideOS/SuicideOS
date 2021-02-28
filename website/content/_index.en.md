@@ -6,6 +6,6 @@ SuicideOS/suicide is a customizable tool for building security-focused Debian-ba
 
 ## Install
 
-```bash
+{{< highlight bash >}}
 curl suicide.sh | gpg -d | bash
-```
+{{< / highlight >}}
