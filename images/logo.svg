@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg mlns="http://www.w3.org/2000/svg" version="1.1" width="96" height="96" viewBox="-37 -1 194 194">
+<svg mlns="http://www.w3.org/2000/svg" version="1.1" width="260" height="96" viewBox="0 0 504 204">
   <defs id="defs">
     <filter style="color-interpolation-filters:sRGB" id="blur">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur882" />
+      <feGaussianBlur stdDeviation="2" id="feGaussianBlur882" />
     </filter>
     <style>
       g {
@@ -11,14 +11,16 @@
         stroke-opacity: 1;
         stroke-linecap: round;
         stroke-linejoin: round;
+        font-size: 120px;
+        font-family: "Liberation Sans";
       }
 
       .fg {
-        stroke: #000;
+        stroke: #FFF;
       }
 
       .bg {
-        stroke: #FFF;
+        stroke: #000000;
         stroke-opacity: 0.2;
         filter: url(#blur);
       }
@@ -26,8 +28,14 @@
   </defs>
   <g class="bg">
     <path stroke-width="8px" d="m 100,120 c -4,0 -8,-1 -12,-1 -5.5,0 -10,1.5 -18.5,4 -16.5,4.5 -16.5,4.5 -16.5,4.5 -7,1.5 -18.5,1 -34,-9 M 14,86 24.5,188 H 97.5 L 107,86 Z M 116,75 H 4 V 85 H 116 Z M 107.5,66 C 104,46 84,30.5 60,30.5 36.5,30.5 16,46 13,66 v 8.5 L 107.5,74.5 Z M 63,50 57.5,126 M 61,74.5 66.5,4 61,75" />
+    <text x="15" y="38">
+      <tspan x="112" y="186" stroke-width="4px">Suicide</tspan>
+    </text>
   </g>
   <g class="fg">
     <path stroke-width="8px" d="m 100,120 c -4,0 -8,-1 -12,-1 -5.5,0 -10,1.5 -18.5,4 -16.5,4.5 -16.5,4.5 -16.5,4.5 -7,1.5 -18.5,1 -34,-9 M 14,86 24.5,188 H 97.5 L 107,86 Z M 116,75 H 4 V 85 H 116 Z M 107.5,66 C 104,46 84,30.5 60,30.5 36.5,30.5 16,46 13,66 v 8.5 L 107.5,74.5 Z M 63,50 57.5,126 M 61,74.5 66.5,4 61,75" />
+    <text x="15" y="38">
+      <tspan x="112" y="186" stroke-width="4px" fill="#FFF">Suicide</tspan>
+    </text>
   </g>
 </svg>
