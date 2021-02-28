@@ -111,7 +111,6 @@ pre {
 .chroma {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
-  border: 1px solid var(--color-border-secondary);
   font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "monospace";
 }
 
