@@ -25,6 +25,7 @@ params:
   disableBreadcrumb: false
   disableNextPrev: false
   disableLandingPageButton: true
+  disableInlineCopyToClipBoard: true
   disableMermaid: true
   themeVariant: "mine"
 
