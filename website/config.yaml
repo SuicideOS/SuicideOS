@@ -9,7 +9,7 @@ defaultContentLanguageInSubdir: true
 pygmentsUseClasses: true
 enableGitInfo: true
 
-disableKinds: ["taxonomy", "taxonomyTerm"]
+disableKinds: ["taxonomy", "taxonomyTerm", "404"]
 
 outputs:
   home: ["HTML", "RSS", "JSON"]
