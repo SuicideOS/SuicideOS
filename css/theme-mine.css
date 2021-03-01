@@ -21,7 +21,12 @@
   --color-syntax-hl-out: #44475a;
 }
 
-::-moz-selection, ::selection {
+::-moz-selection {
+  color: var(--color-text-primary-inverse);
+  background: var(--color-bg-primary-inverse);
+}
+
+::selection {
   color: var(--color-text-primary-inverse);
   background: var(--color-bg-primary-inverse);
 }
@@ -100,10 +105,13 @@ a:hover {
   color: var(--color-text-primary);
 }
 
-#sidebar a .logo, #sidebar a .logo::-moz-selection, #sidebar a .logo::selection {
+#sidebar a .logo {
   margin: 0px !important;
-  color: var(--color-text-primary) !important;
-  background: var(--color-bg-primary) !important;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
 }
 
 #sidebar ul li.active>a {
