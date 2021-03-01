@@ -1,4 +1,12 @@
 <a id="logo"
   href='{{ (cond (and (ne .Site.Params.landingPageURL nil) (.Site.IsMultiLingual)) .Site.Params.landingPageURL "/") }}'>
-  <h2><object {{ .Param "logo.object" }}></object><span>{{ .Param "logo.text" | default "" }}</span></h2>
+  {{- with .Param "logo" -}}
+  <h2>
+    <object data="images/logo.svg" type="image/svg+xml" width="{{ .imageWidth }}"
+      height="{{ .imageHeight }}">Logo</object>
+    {{- if ne .text nil -}}
+    <span>{{ .Param "logo.text" }}</span>
+    {{- end -}}
+  </h2>
+  {{- end -}}
 </a>
