@@ -21,14 +21,9 @@
   --color-syntax-hl-out: #44475a;
 }
 
-::-moz-selection {
-  color: var(--color-text-primary-inverse) !important;
-  background: var(--color-bg-primary-inverse) !important;
-}
-
-::selection {
-  color: var(--color-text-primary-inverse) !important;
-  background: var(--color-bg-primary-inverse) !important;
+::-moz-selection, ::selection {
+  color: var(--color-text-primary-inverse);
+  background: var(--color-bg-primary-inverse);
 }
 
 body {
@@ -103,6 +98,12 @@ a:hover {
 
 #sidebar a:hover {
   color: var(--color-text-primary);
+}
+
+#sidebar a .logo, #sidebar a .logo::-moz-selection, #sidebar a .logo::selection {
+  margin: 0px !important;
+  color: var(--color-text-primary) !important;
+  background: var(--color-bg-primary) !important;
 }
 
 #sidebar ul li.active>a {

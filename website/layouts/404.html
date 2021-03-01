@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<body data-url="/">
+  <section id="body" style="margin-left:0px;">
+    <div id="overlay"></div>
+    <div id="chapter">
+      <div id="body-inner">
+        <h1>{{ .Param "notFoundTitle" }}</h1>
+        <p>
+        </p>
+        <p>{{ .Param "notFoundMessage" }}</p>
+        <p></p>
+        <p><a href='{{ "" | relLangURL }}'>{{T "Go-to-homepage"}}</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+
+{{ partial "footer.html" . }}

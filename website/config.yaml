@@ -17,6 +17,9 @@ outputs:
 params:
   editURL: "https://github.com/SuicideOS/suicide/edit/main/website/content"
   description: "Documentation for SuicideOS tools"
+  logo:
+    image: "<object data='images/logo.svg' type='image/svg+xml' width='52px' height='52px'></object>"
+    text: "Suicide"
   author: "Matthew Cascio"
   showVisitedLinks: true
   disableBreadcrumb: false
@@ -32,6 +35,8 @@ languages:
     languageName: "English"
     landingPageURL: "/en"
     landingPageName: "<i class='fas fa-home'></i> Home"
+    notFoundTitle: "404"
+    notFoundMessage: "The page you requested could not be found."
     menu:
       shortcuts:
         - name: "<i class='fab fa-fw fa-github'></i> GitHub Repo"
