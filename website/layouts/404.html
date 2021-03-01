@@ -5,10 +5,10 @@
     <div id="overlay"></div>
     <div id="chapter">
       <div id="body-inner">
-        <h1>{{ .Param "notFoundTitle" }}</h1>
+        <h1>{{ .Param "error.notFound.title" }}</h1>
         <p>
         </p>
-        <p>{{ .Param "notFoundMessage" }}</p>
+        <p>{{ .Param "error.notFound.message" }}</p>
         <p></p>
         <p><a href='{{ "" | relLangURL }}'>{{T "Go-to-homepage"}}</a></p>
       </div>

@@ -35,8 +35,10 @@ languages:
     languageName: "English"
     landingPageURL: "/en"
     landingPageName: "<i class='fas fa-home'></i> Home"
-    notFoundTitle: "404"
-    notFoundMessage: "The page you requested could not be found."
+    error:
+      notFound:
+        title: "404"
+        message: "The page you requested could not be found."
     menu:
       shortcuts:
         - name: "<i class='fab fa-fw fa-github'></i> GitHub Repo"
