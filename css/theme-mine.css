@@ -18,48 +18,48 @@
   --color-syntax-hl-num: #bd93f9;
   --color-syntax-hl-comment: #6272a4;
   --color-syntax-hl-del: #8b080b;
-  --color-syntax-hl-out: #44475a;
+  --color-syntax-hl-out: #44475a
 }
 
 ::-moz-selection {
   color: var(--color-text-primary-inverse);
-  background: var(--color-bg-primary-inverse);
+  background: var(--color-bg-primary-inverse)
 }
 
 ::selection {
   color: var(--color-text-primary-inverse);
-  background: var(--color-bg-primary-inverse);
+  background: var(--color-bg-primary-inverse)
 }
 
 body {
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-primary)!important;
   background-color: var(--color-bg-primary);
-  font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial";
+  font-family: work sans, helvetica, tahoma, geneva, arial
 }
 
-textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
+textarea:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=url]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, select[multiple=multiple]:focus {
   border-color: none;
-  box-shadow: none;
+  box-shadow: none
 }
 
 h2, h3, h4, h5 {
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-primary)!important
 }
 
 a {
-  color: var(--color-text-link);
+  color: var(--color-text-link)
 }
 
 .anchor {
-  color: var(--color-text-primary);
+  color: var(--color-text-primary)
 }
 
 a:hover {
-  color: var(--color-text-link);
+  color: var(--color-text-link)
 }
 
 #sidebar ul li.visited>a .read-icon {
-  color: var(--color-text-link);
+  color: var(--color-text-link)
 }
 
 #body a.highlight:after {
@@ -67,97 +67,97 @@ a:hover {
   content: "";
   height: 1px;
   width: 0%;
-  -webkit-transition: width 0.5s ease;
-  -moz-transition: width 0.5s ease;
-  -ms-transition: width 0.5s ease;
-  transition: width 0.5s ease;
-  background-color: var(--color-text-link);
+  -webkit-transition: width .5s ease;
+  -moz-transition: width .5s ease;
+  -ms-transition: width .5s ease;
+  transition: width .5s ease;
+  background-color: var(--color-text-link)
 }
 
 #sidebar {
-  background: var(--color-bg-secondary);
+  background: var(--color-bg-secondary)
 }
 
 #sidebar #header-wrapper {
   background: var(--color-bg-secondary);
   color: var(--color-text-primary);
-  border-color: var(--color-border-secondary);
+  border-color: var(--color-border-secondary)
 }
 
 #sidebar .searchbox {
   border-color: var(--color-border-secondary);
-  background: var(--color-bg-primary);
+  background: var(--color-bg-primary)
 }
 
 #sidebar ul.topics>li.parent, #sidebar ul.topics>li.active {
-  background: var(--color-bg-secondary);
+  background: var(--color-bg-secondary)
 }
 
 #sidebar .searchbox * {
-  color: var(--color-text-primary);
+  color: var(--color-text-primary)
 }
 
 #sidebar a {
-  color: var(--color-text-secondary);
+  color: var(--color-text-secondary)
 }
 
 #sidebar a:hover {
-  color: var(--color-text-primary);
+  color: var(--color-text-primary)
 }
 
 #sidebar a .logo {
-  margin: 0px !important;
+  margin: 0!important;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
-  -ms-user-select: none;
+  -ms-user-select: none
 }
 
 #sidebar ul li.active>a {
   background: var(--color-bg-secondary);
-  color: var(--color-text-primary) !important;
+  color: var(--color-text-primary)!important
 }
 
 #sidebar hr {
-  border-color: var(--color-border-secondary);
+  border-color: var(--color-border-secondary)
 }
 
 #sidebar #shortcuts h3 {
   font-family: inherit;
   color: var(--color-text-primary);
   margin-top: 1rem;
-  padding-left: 1rem;
+  padding-left: 1rem
 }
 
 #footer {
   padding: 3rem 1rem;
   color: var(--color-text-secondary);
-  font-size: 12px;
+  font-size: 12px
 }
 
 #footer p {
-  margin: 0;
+  margin: 0
 }
 
 pre {
   padding: 0;
   margin: 0;
   border: 0;
-  line-height: 1.15;
+  line-height: 1.15
 }
 
 .chroma {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
-  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "monospace";
+  font-family: sfmono-regular, consolas, liberation mono, menlo, "monospace"
 }
 
 .chroma .lntd {
   vertical-align: top;
   padding: 0;
   margin: 0;
-  border: 0;
+  border: 0
 }
 
 .chroma .lntable {
@@ -167,58 +167,58 @@ pre {
   border: 0;
   width: auto;
   overflow: auto;
-  display: block;
+  display: block
 }
 
 .chroma .hl {
   display: block;
   width: 100%;
-  background-color: var(--color-syntax-hl-line-hl);
+  background-color: var(--color-syntax-hl-line-hl)
 }
 
 .chroma .lnt, .chroma .ln {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-  color: var(--color-syntax-hl-line-num);
+  margin-right: .4em;
+  padding: 0 .4em;
+  color: var(--color-syntax-hl-line-num)
 }
 
 .chroma .k, .chroma .kc, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .nt, .chroma .o, .chroma .ow, .chroma .cp, .chroma .cpf {
-  color: var(--color-syntax-hl-var);
+  color: var(--color-syntax-hl-var)
 }
 
 .chroma .kd, .chroma .kt, .chroma .nb, .chroma .nl, .chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi {
   color: var(--color-syntax-hl-type);
-  font-style: italic;
+  font-style: italic
 }
 
 .chroma .na, .chroma .nc, .chroma .nf {
-  color: var(--color-syntax-hl-func);
+  color: var(--color-syntax-hl-func)
 }
 
 .chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl, .chroma .sd, .chroma .s2, .chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr, .chroma .s1, .chroma .ss {
-  color: var(--color-syntax-hl-string);
+  color: var(--color-syntax-hl-string)
 }
 
 .chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo {
-  color: var(--color-syntax-hl-num);
+  color: var(--color-syntax-hl-num)
 }
 
 .chroma .c, .chroma .ch, .chroma .cm, .chroma .c1, .chroma .cs {
-  color: var(--color-syntax-hl-comment);
+  color: var(--color-syntax-hl-comment)
 }
 
 .chroma .gd {
-  color: var(--color-syntax-hl-del);
+  color: var(--color-syntax-hl-del)
 }
 
 .chroma .ge, .chroma .gl {
-  text-decoration: underline;
+  text-decoration: underline
 }
 
 .chroma .gh, .chroma .gi, .chroma .gu {
-  font-weight: bold;
+  font-weight: bold
 }
 
 .chroma .go {
-  color: var(--color-syntax-hl-out);
+  color: var(--color-syntax-hl-out)
 }
