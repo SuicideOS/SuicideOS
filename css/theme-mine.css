@@ -21,6 +21,16 @@
   --color-syntax-hl-out: #44475a;
 }
 
+::-moz-selection {
+  color: var(--color-text-primary-inverse) !important;
+  background: var(--color-bg-primary-inverse) !important;
+}
+
+::selection {
+  color: var(--color-text-primary-inverse) !important;
+  background: var(--color-bg-primary-inverse) !important;
+}
+
 body {
   color: var(--color-text-primary) !important;
   background-color: var(--color-bg-primary);
